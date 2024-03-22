@@ -1,0 +1,2029 @@
+@import url(./fonts.css);
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: url(../img/background.jpg);
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+.container .head-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    margin-top: 20px;
+}
+.container .colection-history{
+    display: flex;
+
+
+}
+.container .colection-history h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-right: 45px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.container .colection-history h2{
+    margin-top: 8px;
+}
+
+.container .mimilo h2{
+    font-size: 24px;
+    color:#756b62;
+    font-family: "Cprmprantlnafant";
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.container .mimilo{
+    margin-top: 0;
+}
+
+.container .head-info .princ-nab{
+    display: flex;
+    
+
+}
+
+.container .head-info .princ-nab .shoper{
+    margin-top: 8px;
+}
+
+
+.container .head-info .princ-nab h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-right: 45px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.container .head-info .princ-nab h2{
+    margin-top: 8px;
+}
+.glav{
+    margin-top: 20px;
+}
+.glav .background{
+    display: flex;
+    justify-content: space-between;
+}
+.glav .background .twoimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 375px;
+    height: 825px;
+    z-index: -1;
+
+}
+.glav .background .img1{
+    background: url(../img/1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 270px;
+    height: 270px;
+    z-index: -1;
+    position: relative;
+}
+.glav .background .img2{
+    background: url(../img/3.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 170px;
+    height: 170px;
+    align-self: flex-end;
+    z-index: -1;
+    position: relative;
+}
+
+.glav .background .two2img{
+    margin-right: 90px;
+    height: 825px;
+    align-self: flex-end;
+    display: flex;
+}
+.glav .background .img3{
+    background: url(../img/2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 570px;
+    height: 720px;
+    align-self: flex-end;
+    z-index: -1;
+    position: relative;
+}
+
+.glav .background .img4{
+
+    opacity: 1;
+    background: url(../img/4.png);
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 500px;
+}
+
+
+.glav .background .title h2{
+    font-family: "Cprmprantlnafant";
+    font-weight: 300;
+    font-size: 100px;
+    z-index: 0;
+    position: absolute;
+    color: #756b62;
+    line-height: 103px;
+}
+
+.glav .background .title{
+    position: absolute;
+    z-index: 0;
+    margin-top: 250px;
+    margin-left: 10px;
+}
+
+
+.container-love{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.love .container-love .bold{
+    font-family: "Cprmprantlnafant";
+    font-weight: 500;
+    font-style: normal;
+    color: #756b62;
+}
+
+.love .container-love h2{
+    font-size: 55px;
+    color: #988f87;
+    font-family: "Cprmprantlnafant";
+    font-weight: 300;
+    font-style: italic;
+    line-height: 48px;
+    position: relative;
+    text-align: center;
+    margin-right: 120px;
+
+}
+
+.love{
+    margin-top: 230px;
+}
+
+.love .container-love .eskiz{
+    background: url(../img/эскиз.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 178px;
+    height: 226px;
+    position: absolute;
+    margin-left: 850px;
+    
+}
+.slider{
+    margin-top: 100px;
+    height: 900px;
+}
+
+.slider .titleone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.slider .titleone .strih{
+    background-color: #988f87;
+    width: 50px;
+    height: 1px;
+}
+
+.slider .titleone a{
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cards .card{
+    width: 270px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.cards .card img{
+    height: 520px;
+    width: 100%;
+}
+
+.cards .card .titletwo{
+    display: flex;
+}
+.cards .card .titletwo .title-cost h2{
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #756b62;
+}
+.cards .card .titletwo .title-cost{
+    width: 500px;
+}
+.cards .card .titletwo .btn{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.cards .card .titletwo .btn button{
+    background: none;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    border: 1px solid #988f87;
+    border-radius: 30px;
+    transition: .5s;
+}
+.cards .card .titletwo .btn:hover button{
+    background-color: #988f87;
+    transition: .3s;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.containerhistory{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+.historyblock .history .strih-history{
+    display: flex;
+    align-items: center;
+}
+
+.historyblock .history .strih-history .strih{
+    background-color: #988f87;
+    width: 50px;
+    height: 1px;
+}
+.historyblock .history .strih-history a{
+    margin-left: 20px;
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.historyblock{
+    margin-top: 200px;
+}
+
+.historyblock .history .min{
+    font-family: "Cprmprantlnafant";
+    font-style: italic;
+    color: #756b62;
+    font-size: 55px;
+    line-height: 60px;
+    margin-top: 25px;
+}
+
+.historyblock .history{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 790px;
+    width: 675px;
+}
+.historyblock .history .mimi{
+    font-family: "Cprmprantlnafant";
+    font-style: italic;
+    color: #988f87;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.historyblock .history .author{
+    display: flex;
+    align-items: center;
+    
+}
+.historyblock .history .author .ava{
+    background: url(../img/ava.png) center no-repeat;
+    background-size: contain;
+    width: 78px;
+    height: 84px;
+}
+
+.historyblock .history .author .name{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.historyblock .history .author .name a{
+    color: #756b62;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.historyblock .history .author .name h3{
+    margin-top: 5px;
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.history .oil{
+    background: url(../img/12.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 270px;
+    width: 270px;
+    display: flex;
+    position: absolute;
+    margin-top: 72%;
+    margin-left: 60%;
+}
+.containerhistory .use-oil{
+    margin-left: 20px;
+    display: flex;
+}
+.containerhistory .use-oil .use{
+    background: url(../img/11.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 470px;
+    height: 710px;
+    position: relative;
+}
+
+.containerhistory .use-oil .flower{
+    background: url(../img/flow.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 195px;
+    height: 424px;
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 287px;
+
+}
+
+.sostav{
+    margin-top: 185px;
+    margin-bottom: 100px;
+}
+.sostav .containersostav{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sostav .containersostav .info1{
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+
+.sostav .containersostav .info1 .three{
+    background: url(../img/three.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 49px;
+    height: 63px;
+    margin-left: 43%;
+}
+
+.sostav .containersostav .info1 h2{
+    color: #988f87;
+    font-size: 24px;
+    font-family: "Cprmprantlnafant";
+    font-style: italic;
+}
+
+
+
+.containersostav .info1 .round{
+    background: url(../img/round.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 49px;
+    height: 51px;
+    margin-left: 43%;
+    margin-top: 10px;
+}
+
+.containersostav .info1 .book{
+    background: url(../img/book.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 43px;
+    height: 53px;
+    margin-left: 43%;
+    margin-top: 10px;
+}
+.nabor .containernabor{
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+.nabor{
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nabor .containernabor .text h2{
+    font-size: 140px;
+    color: #bdb4ab;
+    font-family: "Cprmprantlnafant";
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    line-height: 145px;
+}
+.nabor .containernabor .text{
+    display: flex;
+}
+
+.nabor .containernabor .text .woman{
+    background: url(../img/13.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 630px;
+    height: 390px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nabor .containernabor .text .woman .in{
+    font-size: 24px;
+    line-height: 25px;
+    color: #f1e9de;
+    font-family: "Montserrat";
+    font-weight: 300;
+
+}
+
+.nabor .containernabor .text .woman .btn{
+    margin-top: 20px;
+}
+
+
+.nabor .containernabor .text .woman .btn button{
+    background: none;
+    border: 1px solid #f1e9de;
+    color: #f1e9de;
+    width: 190px;
+    height: 55px;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    transition: .5s;
+}
+
+.nabor .containernabor .text .woman .btn button:hover{
+    background-color: #f1e9de;
+    color: #988f87;
+    transition: .3s;
+}
+.inst{
+    margin-bottom: 160px;
+}
+.inst .containerinst{
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inst .sub{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.inst .sub .insta{
+    background: url(../img/insta.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+}
+
+.inst .sub .mi{
+    color: #756b62;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+.inst .sub h2{
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #988f87;
+    margin-left: 5px;
+}
+.containerinst .photo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+.containerinst .photo .frst{
+    background: url(../img/14.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 360px;
+    height: 350px;
+}
+.containerinst .photo .scnd{
+    background: url(../img/15.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 360px;
+    height: 350px;
+}
+.containerinst .photo .thrd{
+    background: url(../img/16.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 360px;
+    height: 350px;
+}
+.containerinst .photo .fz{
+    background: url(../img/17.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 360px;
+    height: 350px;
+}
+.containerinst .photo .fiz{
+    background: url(../img/18.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 360px;
+    height: 350px;
+}
+
+.reg{
+    background: url(../img/19.jpg);
+}
+
+.containerreg{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+.inp{
+    padding-top: 50px;
+}
+
+.reg .containerreg .text{
+    padding-top: 5px;
+}
+.reg .containerreg .text h2{
+    font-size: 55px;
+    font-family: "Cprmprantlnafant";
+    font-style: italic;
+    color: #756b62;
+    line-height: 50px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.reg .containerreg .text h3{
+    font-size: 24px;
+    font-family: "Cprmprantlnafant";
+    font-style: italic;
+    color: #988f87;
+}
+
+
+.reg .containerreg .inp{
+    display: flex;
+    flex-direction: column;
+}
+
+.reg .containerreg .inp .vibor{
+    display: flex;
+    justify-content: space-between;
+}
+.reg .containerreg .inp .vibor .v{
+    margin: 0;
+    padding: 0;
+    background: #988f87;
+}
+.reg .containerreg .inp .vibor h2{
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #988f87;
+    margin-right: 15px;
+}
+
+.reg .inp .i{
+    background: none;
+    width: 490px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #5e564f;
+    outline:none;
+}
+
+.reg .inp input::-webkit-input-placeholder{
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    
+}
+.reg .sog{
+    display: flex;
+   
+}
+
+.reg .sog h3{
+    font-size: 15px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.reg .drop{
+    background: none;
+    border: 1px solid #756b62;
+    color: #756b62;
+    width: 170px;
+    height: 45px;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    transition: .5s;
+    margin-bottom: 160px;
+    
+}
+.reg .drop:hover{
+    background-color: #988f87;
+    color: #e6e5e5;
+    border: none;
+    transition: .3s;
+}
+.reg .block1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reg .block2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px
+}
+
+.contacts{
+    background: url(../img/20.jpg);
+}
+
+.contacts .all{
+    display: flex;
+    padding-top: 125px;
+    justify-content: space-between;
+}
+
+.contacts .bl1{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts .bl1 .mimilo1{
+    font-size: 28px;
+    color: #f1e9de;
+    font-family: "Cprmprantlnafant";
+    margin-bottom: 0;
+}
+.contacts .bl1 .sto{
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #9f968e;
+    margin-bottom: 45px;
+}
+
+.contacts .bl1 .orig{
+    font-size: 15px;
+    color: #9f968e;
+    font-family: "Montserrat";
+}
+
+.contacts .all .bl2 .adress{
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #9f968e;
+
+}
+.contacts .all .bl2{
+    margin-top: 60px;
+}
+.contacts .all .bl3{
+    display: flex;
+    align-items: center;
+}
+.contacts .all .bl3 svg{
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width:1570px) {
+    .container{
+        width: 1024px !important;   
+        overflow-x: hidden;
+    }
+    .containerreg{
+        width: 1024px !important;
+    }
+    .containerinst{
+        width: 1024px !important;
+        
+    }
+    .containerinst .photo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .containerinst .photo .frst{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .containerinst .photo .thrd{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .containernabor .text h2{
+        font-size: 90px !important;
+        line-height: 130px !important;
+    }
+    .containernabor .woman .in{
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+    .containernabor .woman{
+        width: 550px !important;
+        height: 350px !important;
+        margin-top: 160px !important;
+        margin-left: 260px !important;
+        
+    }
+    .containernabor .woman button{
+        height: 35px !important;
+        width: 130px !important;
+        font-size: 12px;
+    }
+  .containersostav{
+    width: 1024px !important;
+  }
+  .containersostav .info1 h2{
+    font-size: 21px !important;
+  }
+  .containerhistory{
+    width: 1024px !important;
+    
+  }
+  .containerhistory .oil{
+    margin-top: 500px ;
+    margin-left: 260px ;
+  }
+  .containerhistory .history{
+    width: 540px;
+  }
+  .containerhistory .strih-history a{
+    font-size: 14px !important;
+  }
+  .containerhistory .strih-history .strih{
+    width: 30px !important;
+  }
+  .containerhistory .min{
+    font-size: 44px !important;
+    line-height: 40px !important;
+  }
+  .containerhistory .mimi{
+    font-size: 19px !important;
+  }
+  .containerhistory .author .ava{
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .containerhistory .author .name a{
+    font-size: 15px !important;
+  }
+  .containerhistory .author .name h3{
+    font-size: 16px !important;
+  }
+  .containerhistory .use-oil{
+    margin-left: 0;
+  }
+  .containerhistory .use{
+    width: 400px !important;
+    height: 610px !important;
+  }
+  .containerhistory .use-oil .flower{
+    width: 140px;
+    height: 300px;
+    margin-left: 356px;
+    margin-top: 311px;
+  }
+  .love .container-love h2{
+    font-size: 44px !important;
+    line-height: 40px !important;
+  }
+  .love .container-love .eskiz{
+    height: 180px;
+    margin-left: 690px;
+
+  }
+
+
+    .slider .titleone .strih{
+        width: 30px !important;
+    }
+    .slider .titleone a{
+        font-size: 14px !important;
+    }
+    .container-love{
+        width: 1024px !important;
+        
+    }
+    .glav .background .img2{
+        margin-right: 50px;
+    }
+    .hed .container{
+        width: 1170px !important;
+       }
+   
+    }
+
+
+@media (max-width: 1170px){
+    .container{
+        width: 720px !important;
+    }
+    
+    .slider .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .slider .card{
+       margin: 10px;
+    }
+    .glav .background .img1{
+        width: 170px;
+        height: 170px;
+    }
+    .glav .background .img2{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 100px;
+    }
+    .glav .background .img3{
+        height: 620px;
+        width: 510px !important;
+        margin-bottom: 100px;
+    }
+    .glav .background .img4{
+        height: 100px; width: 100px;
+        margin-top: 670px;
+        margin-left: 350px;
+    }
+    .glav .background .title{
+        margin-top: 200px;
+    }
+    .contacts .container{
+        width: 720px !important;
+    }
+    .contacts h2{
+        font-size: 16px !important;
+    }
+    .contacts .bl2{
+        margin-top: 30px !important;
+    }
+    .contacts .bl3{
+        padding-bottom: 30px;
+    }
+  
+    .containerreg{
+        width: 720px !important;
+    }
+    .containerreg .inp{
+        margin-left: 5px;
+    }
+    .containerreg .inp .i{
+        width: 310px !important;
+    }
+    .containerreg .vibor{
+        width: 310px !important;
+    }
+    .containerreg .vibor h2{
+        font-size: 14px !important;
+        margin-left: 3px !important;
+    }
+    .containerreg .sog{
+        width: 310px !important;
+    }
+    .containerreg .sog h3{
+        font-size: 14px !important;
+    }
+    .containerreg .text h2{
+        font-size: 39px !important;
+    }
+    .containerreg .text h3{
+        font-size: 20px !important;
+    }
+    .containerreg .block1 .text{
+        margin-top: 10px;
+        
+    }
+    .containerinst{
+        width: 720px !important;
+    }
+    .containerinst .photo .frst{
+        height: 310px;
+        width: 300px;
+
+
+    }
+    .containerinst .photo .scnd{
+        height: 310px;
+        width: 300px;
+
+
+    }
+    .containerinst .photo .thrd{
+        height: 310px;
+        width: 300px;
+
+
+    }
+    .containerinst .photo .fz{
+        height: 310px;
+        width: 300px;
+
+
+    }
+    .containerinst .photo .fiz{
+        height: 310px;
+        width: 300px;
+
+
+    }
+
+    .containernabor .text h2{
+        font-size: 60px !important;
+        line-height: 90px !important;
+    }
+    .containernabor .woman{
+        height: 250px !important;
+        width: 400px !important;
+        margin-top: 115px !important;
+        margin-left: 145px !important;
+    }
+    .sostav{
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .containersostav{
+        width: 720px !important;
+    }
+    .containersostav .info1 h2{
+        font-size: 16px !important;
+    }
+    .containersostav .three{
+        margin-left: 90px;
+    }
+    .containersostav .round{
+        margin-left: 90px;
+    }
+    .containersostav .book{
+        margin-left: 90px;
+    }
+    .containerhistory{
+        width: 720px !important;
+    }
+    .containerhistory .use-oil .use{
+        height: 600px !important;
+        width: 300px !important;
+    }
+    .containerhistory .use-oil .flower{
+        height: 200px !important;
+        width: 100px !important;
+        margin-top: 400px;
+        margin-left: 208px;
+    }
+    .containerhistory .history .oil{
+        height: 170px;
+        width: 170px;
+        margin-left: 230px;
+    }
+    .containerhistory .history .min{
+        font-size: 38px !important;
+    }
+    .containerhistory .history .mimi{
+        font-size: 16px !important;
+        line-height: 20px;
+    }
+    .containerhistory .history .ava{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    .containerhistory .history .name a{
+        font-size: 14px !important;
+    }
+    .containerhistory .history .name h3{
+        font-size: 15px !important;
+    }
+    .containerhistory .history .author{
+        margin-top: 5px !important;
+    }
+    .slider{
+        margin-bottom: 550px !important;
+    }
+    .love{
+        margin-top: 70px !important;
+    }
+    .container-love{
+        width: 720px !important;
+        
+    }
+    .container-love h2{
+        margin-right: 0px !important;
+        font-size: 14px !important;
+        
+    }
+    .container-love .eskiz{
+        margin-left: 610px !important;
+        width: 120px !important;
+        height: 150px !important;
+    }
+
+    .glav .img3{
+        margin-left: 160px;
+        
+    }
+    .glav .img2{
+        margin-right: 0 !important;
+        margin-left: 150px;
+    }
+    .glav .title h2{
+        font-size: 80px !important;
+        line-height: 70px !important;
+    }
+    .hed .container{
+        width: 740px !important;
+       }
+
+
+}
+
+@media (max-width:740px){
+    .container{
+        width: 98% !important;
+        padding: 0 20px !important;
+
+        
+    }
+  
+    .containernabor{
+        width: 100% !important;
+    }
+    .nabor .text h2{
+        font-size: 44px !important;
+        line-height: 60px !important;
+    }
+    .nabor .woman{
+        height: 160px !important;
+        width: 290px !important;
+        margin-left: 105px !important;
+        margin-top: 80px !important;
+    }
+    .nabor .woman .in{
+        font-size: 14px !important;
+        line-height: 20px !important;
+        margin-bottom: 0 !important;
+    }
+    .nabor .woman button{
+        width: 70px !important;
+        height: 20px !important;
+        font-size: 10px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .containerhistory .use-oil .flower{
+        margin-left: 200px !important;
+    }
+    
+    .containerhistory {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .containerhistory .history .min{
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+    .containerhistory .history .oil{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .containerhistory .use-oil .use{
+        width: 204px !important;
+        height: 504px !important;
+    }
+    .containerhistory .use-oil .flower{
+        margin-left: 150px !important;
+        width: 54px !important;
+        height: 104px !important;
+    }
+    .contacts h2{
+        font-size: 14px !important;
+    }
+    .contacts .container{
+        width: 400px !important;
+    }
+    .reg .text h2{
+        font-size: 30px !important;
+        line-height: 30px !important;
+        margin-top: 50px !important;
+    }
+    .reg .text h3{
+        font-size: 18px !important;
+    }
+    .reg .inp input{
+        font-size: 18px !important;
+    }
+    .reg .inp input::-webkit-input-placeholder{
+        font-size: 14px !important;
+    }
+    .reg .inp {
+        height: 150px !important;
+    }
+    .containerinst .insta{
+        height: 20px !important;
+        width: 20px !important;
+    }
+    .containerinst .sub h2{
+        font-size: 18px !important;
+    }
+    .containerinst .photo .frst{
+        height: 260px !important;
+        width: 250px !important;
+    }
+    .containerinst .photo .scnd{
+        height: 260px !important;
+        width: 250px !important;
+    }
+    .containerinst .photo .thrd{
+        height: 260px !important;
+        width: 250px !important;
+    }
+    .containerinst .photo .fz{
+        height: 260px !important;
+        width: 250px !important;
+    }
+    .containerinst .photo .fiz{
+        height: 260px !important;
+        width: 250px !important;
+    }
+    
+    .slider .container{
+        width: 92% !important;
+        margin: 0 !important;
+        
+    }
+    .slider .card{
+        scale: 0.8;
+        width: 170px !important;
+        height: 315px !important;
+    }
+    .slider .card .btn{
+        margin-left: 2px !important;
+    }
+    .slider .card button{
+        height: 38px !important;
+        width: 38px !important;
+    }
+    .slider .container{
+        width: 100% !important; 
+    }
+    .slider{
+        height: 300px !important;
+    }
+    
+    .container-love h2{
+        font-size: 18px !important;
+        
+    }
+    .container-love .eskiz{
+        margin-left: 300px !important;
+    }
+   
+    .head-info{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .head-info .princ-nab{
+        margin-left: 35px;
+        
+    }
+    .head-info .colection-history{
+        margin-left: 35px !important;
+    }
+    .head-info .princ-nab a{
+        margin-right: 35px !important;
+    }
+    .container-love{
+        width: 400px !important;
+        
+    }
+    .containerhistory{
+        width: 100% !important;
+        
+    }
+    .containersostav{
+        width: 100% !important;
+        
+        
+        
+    }
+    .containersostav .info1{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    .containersostav .info1 h2{
+        font-size: 15px !important;
+
+    }
+    .containernabor{
+        width: 100% !important;
+       
+    }
+    .nabor .containernabor .text h2{
+        font-size: 34px !important;
+
+    }
+    .nabor .containernabor .woman .in{
+        font-size: 14px !important;
+    }
+    .nabor .containernabor .woman{
+        margin-left: 50px !important;
+        margin-top: 70px !important;
+    }
+    .containerinst{
+        width: 100% !important;
+        
+    }
+    .containerreg{
+        width: 100% !important;
+    
+    }
+    .containerreg .block1{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .containerreg .text h2{
+        font-size: 30px !important;
+        line-height: 20px !important;
+
+    }
+    .containerreg .text{
+       margin-left: 8px !important;
+    }
+    .containerreg .text h3{
+        font-size: 16px !important;
+    }
+    .containerreg .inp{
+        width: 250px !important;
+       padding: 0 !important;
+       margin-right: 90px !important;
+    }
+    .containerreg .inp .i{
+        width: 245px !important;
+    }
+    .containerreg .inp input::-webkit-input-placeholder{
+        font-size: 10px !important;
+    }
+    .containerreg .inp .vibor input{
+        size: 1px !important;
+    }
+    .containerreg .inp .vibor{
+        display: flex;
+        
+    }
+    .containerreg .inp .vibor h2{
+        font-size: 10px !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .containerreg .inp .sog h3{
+        font-size: 10px !important;
+    }
+    .containerreg .block2 button{
+        width: 80px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px !important;
+    }
+    .history{
+        margin-left: 20px !important;
+    }
+    .history .oil{
+        margin-left: 120px !important;
+    }
+    .use {
+        margin-right: 20px !important;
+    }
+   .hed .container{
+    width: 90% !important;
+   }
+   .hed .container .head-info .colection-history a{
+    margin-right: 5px !important;
+   }
+   .hed .container .head-info .colection-history{
+    margin-left: 0 !important;
+   }
+   .hed .container .head-info .princ-nab a{
+    margin-right: 5px !important;
+    
+   }
+   .hed .container .head-info .princ-nab{
+    margin-left: 5px !important;
+   }
+   .hed .container .head-info .mimilo{
+    margin-left: 5px !important;
+   }
+   
+   
+   .hed .glav .container{
+    width: 450px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.glav{
+    width: 100% !important;
+}
+.glav .container{
+   display: flex !important;
+   flex-direction: column !important;
+   
+   
+    
+}
+.glav .container .background{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100%;
+    
+    
+    
+    
+    
+}
+.glav .container .background .twoimg{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    height: 190px;
+    
+    
+}
+.glav .container .background .two2img{
+    height: 420px;
+    width: 400px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-right: 140px !important;
+    
+    
+}
+.glav .container .background .two2img .img3{
+    margin: 0 !important;
+}
+.glav .container .background .two2img .img4{
+    margin-left: 300px !important;
+}
+
+.glav .container .background .title{
+    margin-top:70px !important;
+    margin-left: -250px !important;
+}
+.glav .container .background .title h2{
+    font-size: 40px !important;
+    line-height: 40px !important;
+    text-align: center;
+    
+}
+.glav .container .img1{
+    height: 90px !important;
+    width: 90px !important;
+}
+.glav .container .img2{
+    height: 90px !important;
+    width: 90px !important;
+    margin-left: 10px !important;
+   
+   
+}
+.glav .container .img3{
+    height: 420px !important;
+    width: 300px !important;
+    
+
+   
+}
+.glav .container .img4{
+    margin-left: 430px !important;
+    height: 50px !important;
+    width: 50px !important;
+    margin-top: 400px !important;
+}
+.sostav .containersostav .info1 .three{
+    margin-left: 20px !important;
+}
+.sostav .containersostav .info1 .round{
+    margin-left: 20px !important;
+}
+.sostav .containersostav .info1 .book{
+    margin-left: 20px !important;
+}
+
+}
+@media (max-width: 620px){
+    .slider{
+        height: 600px !important;
+    }
+}
+@media(max-width: 700px){
+    .glav .container .background .two2img{
+        margin-right: 110px !important;
+        
+        
+    }
+}
+@media(max-width: 657px){
+    .glav .container .background .two2img{
+        margin-right: 100px !important;
+        
+        
+    }
+}
+@media(max-width: 613px){
+    .glav .container .background .two2img{
+        margin-right: 80px !important;
+        
+        
+    }
+}
+@media(max-width: 571px){
+    .glav .container .background .two2img{
+        margin-right: 60px !important;
+        
+        
+    }
+}
+@media(max-width: 527px){
+    .glav .container .background .two2img{
+        margin-right: 40px !important;
+        
+        
+    }
+}
+@media(max-width: 483px){
+    .glav .container .background .two2img{
+        margin-right: 20px !important;
+        
+        
+    }
+}
+@media(max-width: 455px){
+    .glav .container .background .two2img{
+        margin-right: 0px !important;
+        
+        
+    }
+}
+@media (max-width: 450px){
+    .container{
+        width: 98% !important;
+        padding: 0 5px !important;
+    }
+    .contacts .container{
+        width: 100% !important;
+    }
+    .contacts h2{
+        font-size: 10px !important;
+    }
+    .contacts .all{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 20px !important;
+    }
+    .contacts .bl2{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .containerreg{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .containerreg .block1{
+        display: flex !important;
+        flex-direction: column !important;
+        padding-left: 15px !important;
+        
+    }
+    .containerreg .block1 .inp{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .containerreg .block1 .vibor{
+        display: flex !important;
+        justify-content: space-evenly !important;
+    }
+    .containerreg .text h2{
+        font-size: 16px !important;
+        line-height: 20px !important;
+
+    }
+ 
+    .containerreg .text h3{
+        font-size: 10px !important;
+    }
+    .containerreg .text{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .containerreg .inp .i{
+        width: 245px !important;
+    }
+    .containerreg .inp input::-webkit-input-placeholder{
+        font-size: 10px !important;
+    }
+    .containerreg .inp .vibor input{
+        size: 1px !important;
+    }
+    .containerreg .inp .vibor{
+        display: flex;
+        
+    }
+    .containerreg .inp .vibor h2{
+        font-size: 10px !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .containerreg .inp .sog h3{
+        font-size: 10px !important;
+    }
+    .containerreg .block2 button{
+        width: 80px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px !important;
+    }
+    .containerinst{
+        width: 100% !important;
+    }
+    .containerinst .photo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerinst .photo .frst{
+        scale: 0.8;
+    }
+    .containerinst .sub h2{
+        font-size: 12px !important;
+    }
+    .containerinst .sub .insta{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .containerinst .sub .mi{
+        font-size: 13px !important;
+    }
+    .containerinst .photo .scnd{
+        margin-bottom: 10px !important;
+        scale: 0.8;
+    }
+    .containerinst .photo .fz{
+        margin-bottom: 10px !important;
+        scale: 0.8;
+    }
+    .containerinst .photo .thrd{
+        scale: 0.8;
+    }
+    .containerinst .photo .fiz{
+        scale: 0.8;
+    }
+    .containernabor{
+        width: 100% !important;
+    }
+    .nabor .containernabor .text h2{
+        font-size: 28px !important;
+        line-height: 35px !important;
+    }
+    .nabor .containernabor .woman{
+        height: 100px !important;
+        width: 180px !important;
+        margin-left: 70px !important;
+        margin-top: 45px !important;
+    }
+    .nabor .containernabor .woman .in{
+        font-size: 9px !important;
+        line-height: 10px !important;
+
+    }
+    
+    .containernabor .woman button{
+        width: 50px !important;
+        height: 15px !important;
+        font-size: 6px !important;
+        
+    }
+    .containersostav{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column;
+
+    }
+    .containersostav .info1{
+        font-size: 9px !important;
+        text-align: center;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .sostav .containersostav .info1 .three{
+        width: 40px !important;
+        height: 50px !important;
+        margin-left: 10px !important;
+        
+    }
+    .sostav .containersostav .info1 .round{
+        width: 40px !important;
+        height: 42px !important;
+        margin-left: 10px !important;
+    }
+    .sostav .containersostav .info1 .book{
+        width: 35px !important;
+        height: 42px !important;
+        margin-left: 10px !important;
+    }
+    .containerhistory{
+        width: 100% !important;
+        height: 500px;
+        display: flex !important;
+        flex-direction: column !important;
+        
+        
+    }
+    .containerhistory .author{
+        display: flex !important;
+        justify-content: center !important;
+        margin-right: 120px !important;
+    }
+    .containerhistory .history .min{
+        font-size: 16px !important;
+        line-height: 20px !important;
+        text-align: center;
+        margin: 0 !important;
+        margin-top: 20px !important;
+    }
+    .containerhistory .history .mimi{
+        font-size: 12px !important;
+        text-align: center;
+        margin: 0 !important;
+    }
+    .containerhistory .history .name{
+        margin-top: 5px !important;
+    }
+    .containerhistory .history .name a{
+        font-size: 10px !important;
+        
+    }
+    .containerhistory .history .name h3{
+        font-size: 11px !important;
+       
+    }
+    .historyblock .use-oil{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .historyblock .history .oil{
+        margin-left: 250px !important;
+        margin-top: 170px !important;
+        height: 40px !important;
+        width: 40px !important;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .historyblock .history{
+        margin-left: 0px !important;
+        width: 100% !important;
+        
+        
+
+    }
+    .historyblock{
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+    .containerhistory .oil{
+        width: 70px !important;
+        height: 70px !important;
+        margin-top: 320px !important;
+        margin-left: 10px !important;
+    }
+    .containerhistory .use-oil{
+        margin-left: 0 !important;
+    }
+    .containerhistory .use-oil .use{
+        width: 100px !important;
+        height: 200px !important;
+        
+       
+    }
+    .containerhistory .use-oil .flower{
+        height: 50px !important;
+        width: 20px !important;
+        margin-left: 90px !important;
+        margin-top: 150px !important;
+    }
+    
+    .slider .container{
+        width: 100% !important;
+    }
+    
+    
+    .slider{
+        height: 1400px !important;
+        margin-bottom: 0 !important;
+    }
+    .slider .titleone{
+         margin-left: 20px !important;
+    }
+    .slider .container .cards .card{
+        height: 170px !important;
+        width: 220px !important;
+        margin-bottom: 80px !important;
+    }
+    .slider .card .btn{
+        margin-left: 0 !important;
+        margin-top: 5px !important;
+    }
+    .slider .card button{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .slider .card h2{
+        font-size: 12px !important;
+    }
+    .container-love{
+        width: 100% !important;
+    }
+    .love .container-love h2{
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+    .love .container-love .bold{
+        font-size: 20px !important;
+    }
+    .container-love .eskiz{
+        margin-left: 150px !important;
+        height: 100px !important;
+        width: 70px !important;
+    }
+    .hed .glav .container{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        
+    }
+    .glav .container .background{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        
+    }
+    .glav .container .background .twoimg{
+        display: flex !important;
+        flex-direction: row !important;
+        height: 190px;
+        
+        
+        
+    }
+    .glav .container .background .two2img{
+        height: 430px;
+        width: 100% !important;
+        
+       
+        
+    }
+    .glav .container .background .two2img .img4{
+        margin-left: 240px !important;
+        margin-top: 430px !important;
+    }
+    .inst{
+        margin-bottom: 0 !important;
+    }
+    .glav .container .background .title{
+        margin-top: 70px !important;
+        margin-bottom: 580px !important;
+        text-align: center;
+        display: flex !important;
+        
+    }
+    .glav .container .background .title h2{
+        font-size: 40px !important;
+        line-height: 40px !important;
+    }
+    .glav .container .img1{
+        height: 90px !important;
+        width: 90px !important;
+    }
+    .glav .container .img2{
+        height: 90px !important;
+        width: 90px !important;
+        margin-left: 10px !important;
+       
+       
+    }
+    .glav .container .img3{
+        height: 420px !important;
+        width: 300px !important;
+        margin-right: 30px !important;
+       
+    }
+    .glav .container .img4{
+        margin-left: 430px !important;
+        height: 50px !important;
+        width: 50px !important;
+        margin-top: 400px !important;
+    }
+   
+    .head-info a{
+        font-size: 10px !important;
+        margin-right: 5px !important;
+        
+    }
+    .head-info .mimilo{
+        font-size: 11px !important;
+    }
+    .head-info .princ-nab a{
+        margin-right: 5px !important;
+        
+    }
+    .head-info .princ-nab{
+        margin-left: 5px !important;
+    }
+    .head-info .princ-nab .shoper{
+        font-size: 10px !important;
+        margin-left: 5px !important;
+    }
+    html{
+        overflow-x: hidden !important;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    .hed .container{
+        width: 100% !important;
+    }
+    .hed .container .head-info{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .hed .colection-history{
+        margin-left: 0 !important;
+    }
+    .hed .mimilo{
+        display: flex !important;
+        align-items: center !important;
+    }
+    .hed .mimilo h2{
+        font-size: 12px !important;
+    }
+
+    
+
+}
